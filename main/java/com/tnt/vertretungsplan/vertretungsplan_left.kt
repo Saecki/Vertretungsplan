@@ -25,7 +25,7 @@ class vertretungsplan_left : Fragment() {
                 return true
             }
         }
-        webview.loadUrl("https://www.bgh-windeck.de/cunst/Schueler/right/subst_001.htm")
+        webview.loadUrl("https://www.bgh-windeck.de/cunst/Schueler/left/subst_001.htm")
 
         return frag
     }
