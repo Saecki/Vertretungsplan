@@ -15,7 +15,7 @@ import android.webkit.WebViewClient
 class vertretungsplan_right : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
+
         var frag = inflater.inflate(R.layout.vertretungsplan_right, container, false)
 
         var webview = frag.findViewById<WebView>(R.id.rightwebview)
